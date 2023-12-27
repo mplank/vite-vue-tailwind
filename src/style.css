@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dark{
+    @apply bg-slate-900 text-slate-200;
+}
+
+body {
+    @apply w-[100vw] h-[100vh];
+}
