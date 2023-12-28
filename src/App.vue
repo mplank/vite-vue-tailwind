@@ -7,7 +7,7 @@ import CardBody from './components/card/CardBody.vue';
 
 <template>
   <Grid class="py-5">
-    <Card cols="4">
+    <Card class="col-span-4">
       <CardHeader>
           <h4>Products</h4>
       </CardHeader>
@@ -15,7 +15,7 @@ import CardBody from './components/card/CardBody.vue';
         <p>Was geht hier los?</p>
       </CardBody>
     </Card>
-    <Card cols="4">
+    <Card class="col-span-4">
       <CardHeader>
           <h4>Shops</h4>
       </CardHeader>
@@ -23,7 +23,7 @@ import CardBody from './components/card/CardBody.vue';
         <p>Was geht hier los?</p>
       </CardBody>
     </Card>
-    <Card cols="4">
+    <Card class="col-span-4">
       <CardHeader>
           <h4>Categories</h4>
       </CardHeader>
@@ -31,7 +31,7 @@ import CardBody from './components/card/CardBody.vue';
         <p>Was geht hier los?</p>
       </CardBody>
     </Card>
-    <Card cols="4">
+    <Card class="col-span-4">
       <CardHeader>
           <h4>Offer</h4>
       </CardHeader>
@@ -39,7 +39,7 @@ import CardBody from './components/card/CardBody.vue';
         <p>Was geht hier los?</p>
       </CardBody>
     </Card>
-    <Card cols="4">Ole</Card>
+    <Card class="col-span-4">Ole</Card>
   </Grid>
 </template>
 
